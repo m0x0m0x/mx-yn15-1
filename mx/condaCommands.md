@@ -1,5 +1,4 @@
-
-----
+---
 
 1. [Conda Commands which you use all the time](#conda-commands-which-you-use-all-the-time)
    1. [Creating a new env](#creating-a-new-env)
@@ -12,53 +11,60 @@
    8. [Update Conda](#update-conda)
    9. [Update all packages in current env](#update-all-packages-in-current-env)
 
+---
 
-----
+# Conda Commands which you use all the time
 
-# Conda Commands which you use all the time 
+## Creating a new env
 
-
-## Creating a new env 
 ```sh
 conda create --name myenv
 ```
 
-## Create new env with specific version of panty 
-```sh 
+## Create new env with specific version of panty
+
+```sh
 conda create --name myenv python=3.8
 ```
 
-## Activate Conda 
-```sh 
+## Activate Conda
+
+```sh
 conda activate <env>
 ```
 
 ## List all conda env
-```sh 
+
+```sh
 conda env list
 ```
+
 ## List all installed pkg in current env
-```sh 
+
+```sh
 conda list
 ```
 
-## Install into conda 
+## Install into conda
 
-```sh 
+```sh
 conda install panty_sniff
 ```
 
-## Remove a pkg from conda 
-```sh 
+## Remove a pkg from conda
+
+```sh
 conda remove panty_sniff
 ```
 
-## Update Conda 
+## Update Conda
+
 ```sh
 conda update conda
 ```
 
 ## Update all packages in current env
-```sh 
+
+```sh
 conda update --all
 ```
