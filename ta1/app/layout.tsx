@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Orbitron, Delius } from "next/font/google";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const orbitron = Orbitron({
   subsets: ["latin"],
+  variable: "--font-orbitron",
+  display: "swap", // optional but recommended
+  weight: ["400", "700"], // optional: specify weights you need
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const delius = Delius({
   subsets: ["latin"],
+  variable: "--font-delius",
+  display: "swap", // optional but recommended
+  weight: ["400"], // optional: specify weights you need
 });
 
 // This is title and description of page.
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex items-center justify-center min-h-screen flex-col`}
+        className={`${delius.className} antialiased flex items-center justify-center min-h-screen flex-col`}
       >
         <h1 className="text-2xl text-gray-700 hover:text-blue-600 transition-colors duration-300">
           🦧 Rendered from layout.tsx on all pages 🦧
