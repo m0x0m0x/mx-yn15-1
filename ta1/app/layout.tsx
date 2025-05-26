@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Orbitron, Delius, Rubik_Moonrocks } from "next/font/google";
+import { Orbitron } from "next/font/google";
+// import { Orbitron, Delius, Rubik_Moonrocks } from "next/font/google";
 
 import "./globals.css";
 
@@ -10,19 +11,19 @@ const orbitron = Orbitron({
   weight: ["400", "700"], // optional: specify weights you need
 });
 
-const delius = Delius({
-  subsets: ["latin"],
-  variable: "--font-delius",
-  display: "swap", // optional but recommended
-  weight: ["400"], // optional: specify weights you need
-});
+// const delius = Delius({
+//   subsets: ["latin"],
+//   variable: "--font-delius",
+//   display: "swap", // optional but recommended
+//   weight: ["400"], // optional: specify weights you need
+// });
 
-const rubikMoonrocks = Rubik_Moonrocks({
-  subsets: ["latin"],
-  variable: "--font-rubik-moonrocks",
-  display: "swap", // optional but recommended
-  weight: ["400"], // optional: specify weights you need
-});
+// const rubikMoonrocks = Rubik_Moonrocks({
+//   subsets: ["latin"],
+//   variable: "--font-rubik-moonrocks",
+//   display: "swap", // optional but recommended
+//   weight: ["400"], // optional: specify weights you need
+// });
 
 // This is title and description of page.
 export const metadata: Metadata = {
