@@ -31,7 +31,7 @@ mna() {
 # Setup nextjs project with bun
 mnb() {
     h1 "Creating Next.js App with Bun"
-    co2="bun create next ./my-next-app"
+    co2=""
     echo -e "${GREEN}$co2${NC}"
     eval "$co2"
 }
