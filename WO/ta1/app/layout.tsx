@@ -42,7 +42,7 @@ export default function RootLayout({
         className={`${orbitron.className} antialiased flex items-center justify-center min-h-screen flex-col`}
       >
         <h1 className="text-2xl text-gray-700  duration-300 hover:scale-110 hover:text-indigo-500">
-          🦧 Rendered from layout.tsx on all pages 🦧
+          🦧 Rendered from layout.tsx on butySniff🦧
         </h1>
         {children}
       </body>
