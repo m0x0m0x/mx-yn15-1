@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${orbitron.className} antialiased flex items-center justify-center min-h-screen flex-col`}
       >
-        <h1 className="text-2xl text-gray-700 hover:text-blue-600 transition-colors duration-300">
+        <h1 className="text-2xl text-gray-700  duration-300 hover:scale-110 hover:bg-indigo-500">
           🦧 Rendered from layout.tsx on all pages 🦧
         </h1>
         {children}
