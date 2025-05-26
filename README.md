@@ -19,5 +19,7 @@ YT - M N 15 3 hr
 
 # Dira
 
-| Dira | What |
-| :--: | :--: |
+|        Dira         |         What         |
+| :-----------------: | :------------------: |
+|   [`ta1`](./ta1/)   |  Main Work in here   |
+| [`teztz`](./teztz/) | Testing smell pussy. |
