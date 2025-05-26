@@ -18,9 +18,7 @@ export default function Home() {
       <h1>Whatup</h1>
       <AlertDialog>
         <AlertDialogTrigger asChild>
-          <button className="bg-blue-500 text-white px-4 py-2 rounded">
-            Open Alert Dialog
-          </button>
+          <button className=" px-4 py-2 rounded">Open Alert Dialog</button>
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
