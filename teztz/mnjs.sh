@@ -31,10 +31,10 @@ mna() {
 # Setup nextjs project with bun
 mnb() {
     h1 "Creating Next.js App with Bun"
-    co2=""
+    co2="bunx create-next-app@latest"
     echo -e "${GREEN}$co2${NC}"
     eval "$co2"
 }
 
 # --- Execution ---
-mnb
+mna
