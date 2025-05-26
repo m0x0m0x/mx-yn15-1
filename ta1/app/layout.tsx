@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${rubikMoonrocks.className} antialiased flex items-center justify-center min-h-screen flex-col`}
+        className={`${orbitron.className} antialiased flex items-center justify-center min-h-screen flex-col`}
       >
         <h1 className="text-2xl text-gray-700 hover:text-blue-600 transition-colors duration-300">
           🦧 Rendered from layout.tsx on all pages 🦧
