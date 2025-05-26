@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Orbitron, Delius } from "next/font/google";
+import { Orbitron, Delius, Rubik_Moonrocks } from "next/font/google";
 
 import "./globals.css";
 
@@ -13,6 +13,13 @@ const orbitron = Orbitron({
 const delius = Delius({
   subsets: ["latin"],
   variable: "--font-delius",
+  display: "swap", // optional but recommended
+  weight: ["400"], // optional: specify weights you need
+});
+
+const rubikMoonrocks = Rubik_Moonrocks({
+  subsets: ["latin"],
+  variable: "--font-rubik-moonrocks",
   display: "swap", // optional but recommended
   weight: ["400"], // optional: specify weights you need
 });
@@ -31,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${delius.className} antialiased flex items-center justify-center min-h-screen flex-col`}
+        className={`${rubikMoonrocks.className} antialiased flex items-center justify-center min-h-screen flex-col`}
       >
         <h1 className="text-2xl text-gray-700 hover:text-blue-600 transition-colors duration-300">
           🦧 Rendered from layout.tsx on all pages 🦧
