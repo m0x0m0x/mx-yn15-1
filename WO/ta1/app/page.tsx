@@ -1,5 +1,5 @@
 // import Image from "next/image";
 
 export default function Home() {
-  return <h1>What up index</h1>;
+  return <h1>Index Page.tsx</h1>;
 }
